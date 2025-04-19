@@ -34,6 +34,15 @@ This repository contains Python implementations of core machine learning algorit
 - **Description**: Predicts categorical variable based on multiple input features using logistic regression.
 - **Input**: Iris dataset containing independent and dependent variable.
 - **Output**: Trained model parameters(theta), cost over iterations, and a cost vs epochs plot.
+### 6. Reinforcement Learning - Gridworld (Value & Policy Iteration)  
+- **File**: `grid_rl_solver.py`  
+- **Description**: Solves a static Gridworld using Value Iteration and Policy Iteration to compute the optimal value function and policy.  
+- **Input**: Hardcoded Gridworld with rewards, transitions, and terminal states.  
+- **Output**: Optimal value function and optimal policy per state.  
+- **Bellman Equation**:  
+  \[
+  V^*(s) = \max_a \sum_{s'} P(s'|s,a)\left[R(s,a,s') + \gamma V^*(s')\right]
+  \]
 ## 📦 Datasets
 
 Each algorithm includes a sample dataset (CSV format) placed in the same directory:

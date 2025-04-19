@@ -22,6 +22,12 @@ This repository contains Python implementations of core machine learning algorit
 - **Input**: Boston CSV file or dataset containing independent and dependent variables.
 - **Output**: Trained model parameters (theta), cost over iterations, and a cost vs epochs plot.
 
+### 4. XOR Multilayer Perceptron Model with forward and backpropagation(hard coded for two bit input only)
+- **File**: `XOR_multilayer.py`
+- **Description**: Implements a multilayer perceptron model to solve the XOR problem, using one hidden layer. Weights and biases are randomly initialized.
+- **Activation Function**: Sigmoid activation function is used. The output is 1 if f(z) ≥ 0.5, otherwise 0.
+- **Input**: Takes two-bit binary inputs.
+- **Output**: Classifies the XOR output (either 0 or 1) correctly for each input pair. Also prints final weights and biases after training.
 ## 📦 Datasets
 
 Each algorithm includes a sample dataset (CSV format) placed in the same directory:

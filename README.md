@@ -28,6 +28,12 @@ This repository contains Python implementations of core machine learning algorit
 - **Activation Function**: Sigmoid activation function is used. The output is 1 if f(z) ≥ 0.5, otherwise 0.
 - **Input**: Takes two-bit binary inputs.
 - **Output**: Classifies the XOR output (either 0 or 1) correctly for each input pair. Also prints final weights and biases after training.
+
+### 5. Logistic Regression
+- **File**: `Iris_logistic.py`
+- **Description**: Predicts categorical variable based on multiple input features using logistic regression.
+- **Input**: Iris dataset containing independent and dependent variable.
+- **Output**: Trained model parameters(theta), cost over iterations, and a cost vs epochs plot.
 ## 📦 Datasets
 
 Each algorithm includes a sample dataset (CSV format) placed in the same directory:

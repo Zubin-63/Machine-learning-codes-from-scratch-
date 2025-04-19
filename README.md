@@ -1,32 +1,33 @@
 # Machine Learning Algorithms from Scratch
 
-This repository contains Python implementations of core machine learning algorithms from scratch, along with corresponding datasets in CSV format. Each script is self-contained and avoids using high-level machine learning libraries for core logic, emphasizing an educational, hands-on approach.
+This repository contains Python implementations of core machine learning algorithms from scratch, along with corresponding datasets in CSV format. Each script is self-contained and avoids using high-level machine learning libraries for understanding core logic, emphasizing an educational approach.
 
 ## 📁 Contents
 
-### 1. 📉 Principal Component Analysis (PCA)
+### 1.  Principal Component Analysis (PCA)
 - **File**: `pca.py`
 - **Description**: Reduces the dimensionality of a dataset while preserving as much variance as possible.
-- **Input**: CSV file with high-dimensional features.
-- **Output**: Reduced dataset with principal components, and a variance plot.
+- **Input**: Iris CSV file or Dataset with high-dimensional features.
+- **Output**: Reduced dataset with 2 principal components, and a plot(optional)
 
-### 2. 🧩 K-Medoids Clustering
-- **File**: `kmedoids.py`
+### 2.  K-Medoids Clustering
+- **File**: `kmedoid.py`
 - **Description**: Partitions data into `k` clusters using medoids as cluster centers, more robust to noise and outliers than K-Means.
-- **Input**: Feature dataset in CSV format.
+- **Input**:  Mall Feature dataset in CSV format.
 - **Output**: Cluster assignments, medoid points, and optional visualization (2D).
 
-### 3. 📊 Multiple Linear Regression
-- **File**: `multiple_linear_regression.py`
+### 3.  Multiple Linear Regression
+- **File**: `multipleregression.py`
 - **Description**: Predicts a continuous target variable based on multiple input features using gradient descent.
-- **Input**: CSV file containing independent and dependent variables.
+- **Input**: Boston CSV file or dataset containing independent and dependent variables.
 - **Output**: Trained model parameters (theta), cost over iterations, and a cost vs epochs plot.
 
 ## 📦 Datasets
 
 Each algorithm includes a sample dataset (CSV format) placed in the same directory:
 - `boston.csv` (used in multiple linear regression)
-- Other dataset names specific to `pca.py` and `kmedoids.py`
+- `iris.csv`(used in pca)
+- `mall.csv`(used in clustering)
 
 ## 🔧 Requirements
 

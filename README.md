@@ -38,7 +38,7 @@ This repository contains Python implementations of core machine learning algorit
 
 Each algorithm includes a sample dataset (CSV format) placed in the same directory:
 - `boston.csv` (used in multiple linear regression)
-- `iris.csv`(used in pca)
+- `iris.csv`(used in pca and logistic)
 - `mall.csv`(used in clustering)
 
 ## 🔧 Requirements

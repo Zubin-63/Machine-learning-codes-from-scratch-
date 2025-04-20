@@ -42,9 +42,14 @@ This repository contains Python implementations of core machine learning algorit
 - **Bellman Equation**: V*(s) = maxₐ ∑ P(s' | s, a) × [R(s, a, s') + γ × V*(s')]
 ### 7. Decision Tree
 - **File**: `Iris_DT.py`
-- **Description**: Predicts a categorical variable based on multiple input features using decisin tree(id3).
+- **Description**: Predicts a categorical variable based on multiple input features using decision tree(id3).
 - **Input**: Iris dataset containing independent and dependent variable.
 - **Output**: Trained Decision Tree,print DT and calculated accuracy of testing data.
+### 8. Bagging (Ensemble learning)
+- **File**: `bagging.py`
+- **Description**: Implements ensemble learning technique(bagging) by generating bootstrap samples and correctly predicting the dependent variable
+- **Input**: Iris dataset containing independent and dependent variables.
+- **Output**: Trained multiple DT's for implementing bagging technique and printed each and calculated accuracy of model for testing data.
 
 ## 📦 Datasets
 

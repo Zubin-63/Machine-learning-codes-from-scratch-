@@ -40,12 +40,17 @@ This repository contains Python implementations of core machine learning algorit
 - **Input**: Hardcoded Gridworld with rewards, transitions, and terminal states.  
 - **Output**: Optimal value function and optimal policy per state.  
 - **Bellman Equation**: V*(s) = maxₐ ∑ P(s' | s, a) × [R(s, a, s') + γ × V*(s')]
+### 7. Decision Tree
+- **File**: `Iris_DT.py`
+- **Description**: Predicts a categorical variable based on multiple input features using decisin tree(id3).
+- **Input**: Iris dataset containing independent and dependent variable.
+- **Output**: Trained Decision Tree,print DT and calculated accuracy of testing data.
 
 ## 📦 Datasets
 
 Each algorithm includes a sample dataset (CSV format) placed in the same directory:
 - `boston.csv` (used in multiple linear regression)
-- `iris.csv`(used in pca and logistic)
+- `iris.csv`(used in pca and logistic and decision tree)
 - `mall.csv`(used in clustering)
 
 ## 🔧 Requirements
